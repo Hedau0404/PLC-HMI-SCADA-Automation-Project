@@ -34,6 +34,8 @@ This project demonstrates:
 
 ### HMI Screens
 ![HMI Screen](HMI%20screen.png)  
+
+### Expression Tags
 ![Expression Tags in Ignition](Expression%20Tags%20in%20Ignition.png)  
 
 ### PLC Diagrams
