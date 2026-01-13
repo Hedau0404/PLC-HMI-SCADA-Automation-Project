@@ -1,48 +1,54 @@
-# PLC-HMI-SCADA-Automation-Project
-Developed a complete PLC–HMI–SCADA system demonstrating sequential control, operator interaction, data logging, and scripting-based tag management.
-PLC–HMI–SCADA Automation Project
+# PLC–HMI–SCADA Automation Project
 
-Platform: Arduino Opta PLC, Ignition SCADA
-Protocol: Modbus TCP/IP
-Database: SQLite (Tag Historian)
-
-Overview
 Developed a complete PLC–HMI–SCADA system demonstrating sequential control, operator interaction, data logging, and scripting-based tag management.
 
-Key Features
+**Platform:** Arduino Opta PLC, Ignition SCADA  
+**Protocol:** Modbus TCP/IP  
+**Database:** SQLite (Tag Historian)  
 
-Sequential control logic using timers and counters
+---
 
-Real-time HMI with status indicators, Start/Stop controls, and setpoints
+## Overview
+This project demonstrates:
 
-PLC–SCADA communication via Modbus TCP
+- Sequential control logic using timers and counters  
+- Real-time HMI with status indicators, Start/Stop controls, and setpoints  
+- PLC–SCADA communication via Modbus TCP  
+- Tag History enabled with trend visualization  
+- Python scripting to break PLC arrays into individual SCADA tags  
+- Expression tags for logical validation and interlocks  
 
-Tag History enabled with trend visualization
+---
 
-Python scripting to break PLC arrays into individual SCADA tags
+## Technical Highlights
 
-Expression tags for logical validation and interlocks
+- PLC programming on Arduino Opta  
+- Ignition HMI design and animation  
+- Python scripting for dynamic tag creation  
+- SQL historian for process data logging  
+- Relative tag paths and expression logic  
 
-Technical Highlights
+---
 
-PLC programming on Arduino Opta
+## Screenshots
 
-Ignition HMI design and animation
+### HMI Screens
+![HMI Screen](HMI screen.png)  
+![Expression Tags in Ignition](Expression Tags in Ignition.png)  
 
-Python scripting for dynamic tag creation
+### PLC Diagrams
+![Ladder Diagram 1](Ladder Diagram 1.png)  
+![Ladder Diagram 2](Ladder Diagram 2.png)  
+![Ladder Diagram 3](Ladder Diagram 3.png)  
 
-SQL historian for process data logging
+### Connections
+![Connection via Modbus](Connection via Modbus.png)  
 
-Relative tag paths and expression logic
+### Python Scripting
+![Python for Array Handling](Python for array handling.png)  
 
-Screenshots Included
+### Trends & Historian
+![Trend of Sequential Tag](Trend of Sequential tag.png)  
 
-HMI runtime screen
-
-Modbus TCP device connection status
-
-Tag historian trends
-
-Python scripting (array breakout)
-
-Tag browser showing generated child tags
+### Hardware
+![Arduino Opta](Arduino Opta.png)  
